@@ -2,5 +2,5 @@
 
 let x;
 console.log(typeof x);
-const i = [];
+const i = null;
 console.log(typeof i);

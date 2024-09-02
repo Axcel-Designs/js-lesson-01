@@ -1,12 +1,12 @@
 // Task 1: Create and manipulate strings  
-const named = 'Hello';
+const name = 'Hello';
 const text = 'world';
 
-const newText = named.concat(' ', text);
+const newText = name.concat(' ', text);
 console.log(newText);
 
-const newName = named.toUpperCase("");
-const newName2 = named.toLowerCase('');
-const newName3 = named.slice(1,6);
+const newName = name.toUpperCase("");
+const newName2 = name.toLowerCase('');
+const newName3 = name.slice(1,6);
 
-console.log(newName, newName2, newName3);
+console.log('\n', newName,'\n', newName2, '\n', newName3);

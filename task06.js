@@ -1,16 +1,13 @@
 // Task 6: Convert between data types  10 marks
 
-let word = 890;
-let strInt = "123";
+let number = 890;
+let string = "welcome";
 
-
-let numInt = parseInt(strInt, 10); 
+let numInt = parseInt(string, 10); 
 console.log(numInt); 
 
-let wordNum = word.toString();
-console.log(wordNum);
+let numberStrg = number.toString();
+console.log(numberStrg);
 
-const wordSplit = strInt.split('');
-
-
-console.log(wordSplit);
+const stringSplit = string.split('');
+console.log(stringSplit);

@@ -7,8 +7,19 @@ const and = isFalse && isTrue;
 const or = isTrue || isFalse
 const not = isTrue != isFalse
 
-console.log(and, or, not);
 
-const b =(5==5)? 'five':'not five';
-
-console.log(b);
+if (and){
+    console.log(`yes`);
+} else{
+    console.log(`no`);
+}
+if (or){
+    console.log(`yes`);
+} else{
+    console.log(`no`);
+}
+if (not){
+    console.log(`yes`);
+} else{
+    console.log(`no`);
+}
