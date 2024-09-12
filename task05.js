@@ -3,6 +3,7 @@
 const person = {
     name:"victor", age:90, location:'Nigeria'
 };
+console.log(person);
 person['gender']='male';
 
 console.log(person);

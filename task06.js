@@ -1,4 +1,4 @@
-// Task 6: Convert between data types  10 marks
+ // Task 6: Convert between data types  10 marks
 
 let number = 890;
 let string = "welcome";
